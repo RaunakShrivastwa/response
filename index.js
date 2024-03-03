@@ -10,12 +10,6 @@ app.get("/home",(req,res)=>{
 })
 
 
-
-
-
-
-
-
 app.listen(PORT,(err)=>{
     if(err){
         return console.log("There is Error");
